@@ -3,7 +3,7 @@
  */
 
 var mongoose = require('mongoose'),
-	db = mongoose.connect('mongodb://localhost/test');
+	db = mongoose.connect('mongodb://bhtest1:25081970@oceanic.mongohq.com:10012/bhtest');
 
 mongoose.connection.on('connected', function() {
 	console.log('Mongoose connected to test' );
