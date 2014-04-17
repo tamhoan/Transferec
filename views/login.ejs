@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head><title><%= title %></title></head>
+  <!-- <link rel='stylesheet' href='/stylesheets/style.css' /> -->
+  <body>
+  	<h1><%= title %></h1>
+		<p>You need login to view the room</p>
+		<form method='post' enctype='application/x-www-form-urlencoded'>
+			<p><input type='text', name='email', placeholder='Email'/>
+			</p>
+			<p><input type='password', name='password', placeholder= 'Password'/></p>
+			<p> <%= err|| "" %> </p>
+			<p><input type='submit', value='Login'/></p>
+		</form>
+  </body>
+</html>
