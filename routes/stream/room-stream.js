@@ -67,14 +67,14 @@ module.exports = function(ioSystem, server) {
 				}
 			} else {
 				//console.log(message);
-				ws.send(message);
-				/*sendAll(ws, message);
-				if (all_websockets['1234'] !== null) {
+				//ws.send(message);
+				sendAll(ws, message);
+				/*if (all_websockets['1234'] !== null) {
 					all_websockets['1234'].send(message,{binary:true});
 					//console.log(message);
-				}
+				}*/
 				
-				first++;*/
+				//first++;
 				/*
 				 * audioQueue.push(message);
 				 * 
