@@ -69,10 +69,10 @@ module.exports = function(ioSystem, server) {
 				//console.log(message);
 				//ws.send(message);
 				sendAll(ws, message);
-				if (all_websockets['1234'] !== null) {
+				/*if (all_websockets['1234'] !== null) {
 					all_websockets['1234'].send(message,{binary:true});
 					//console.log(message);
-				}
+				}*/
 				
 				//first++;
 				/*
