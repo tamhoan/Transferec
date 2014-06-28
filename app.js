@@ -13,6 +13,7 @@ var cookieParser = express.cookieParser('your secret sauce')
 	,sessionStore = new express.session.MemoryStore();
 var server = http.createServer(app);
 
+
 // all environments
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
