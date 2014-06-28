@@ -8,7 +8,6 @@ var express = require('express')
 	,path = require('path');
 
 var db = require('./config/dbschema');
-
 var app = express();
 var cookieParser = express.cookieParser('your secret sauce')
 	,sessionStore = new express.session.MemoryStore();
